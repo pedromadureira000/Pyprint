@@ -56,7 +56,7 @@ class PDF(FPDF):
         # set font
         self.set_font('times', '', 12)
         # insert text
-        self.multi_cell(0, 5, txt)
+        self.multi_cell(165, 5, txt)
         # line break
         self.ln()
         # end each charpter
